@@ -1,6 +1,6 @@
-# Ethical-Hacking & Cybersecurity
+# Ethical-Hacking & Cyber Security
 
-In diesem Repository finden sich Ethical-Hacking Projekte und Beiträge zu dem Thema Cybersecurity.
+In diesem Repository finden sich Ethical-Hacking Anleitungen und Beiträge zu dem Thema Cyber Security.
 
 
 ### Disclaimer
