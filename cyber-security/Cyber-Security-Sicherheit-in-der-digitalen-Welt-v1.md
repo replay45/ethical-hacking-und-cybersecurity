@@ -49,13 +49,20 @@
 - Backups erstellen.
 
 ### Betriebsystem spezifisch (hier Android)
+- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android).
 - Passwortsperre nutzen (zur automatischen Geräteverschlüsselung bei Android).
-- Betriebsystem optimal einstellen, durch befolgen von Tipps aus Sicherheit auf Android.
 - Keine unbekannten Befehle in einem Terminal (wie z.B. [Termux](https://termux.dev/en/)) ausführen.
 
 ### Betriebsystem spezifisch (hier Linux)
+- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux).
 - Firewall: richtig mit [ufw](https://wiki.ubuntuusers.de/ufw/) konfigurieren und alle nicht benötigten Ports geschlossen halten.
 - Keine unbekannten Befehle im Terminal ausführen.
 
+### Betriebsystem spezifisch (hier MacOS)
+- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple).
+- Firewall aktivieren
+- Keine unbekannten Befehle im Terminal ausführen.
+
+- Mehr zu `sicher & anonym im Internet surfen` unter [ethical hacking & Cyber Security/Cyber-Security/anonym & sicher im Internet surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/tree/main/browser-%26-sicher-surfen)
 
 ----------------------------------------------------------------------------------------------------------------
