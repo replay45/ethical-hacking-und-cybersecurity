@@ -18,9 +18,7 @@ Die Nutzung von Funkfrequenzen (RF) unterliegt den Gesetzen des jeweiligen Lande
 ### Links
 > HackRF One
 
-[HackRF One](https://greatscottgadgets.com/hackrf/one/)
-
-[HackRF Product Line](https://greatscottgadgets.com/hackrf/)
+[HackRF One](https://greatscottgadgets.com/hackrf/one/) / [HackRF Product Line](https://greatscottgadgets.com/hackrf/)
 
 
 
