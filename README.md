@@ -21,3 +21,9 @@ Die Nutzung von Funkfrequenzen (RF) unterliegt den Gesetzen des jeweiligen Lande
 [HackRF One](https://greatscottgadgets.com/hackrf/one/)
 
 [HackRF Product Line](https://greatscottgadgets.com/hackrf/)
+
+
+
+> Kali Linux
+
+[Kali Linux](https://www.kali.org/) / [Kali Docs](https://www.kali.org/docs/) / [Kali Tools](https://www.kali.org/tools/)
