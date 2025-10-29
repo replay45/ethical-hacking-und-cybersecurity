@@ -5,6 +5,9 @@
 
 ## Inhaltsverzeichnis
 1. Grundlegendes zur Sicherheit in der digitalen Welt
+2. Verschlüsselung
+
+
 
 
 
@@ -24,7 +27,7 @@
 - Datenminimierung: Nur personenbezogene Daten angeben, wenn unbedingt notwendig.
 - Man sollte sich nur in online-Accounts einloggen, wenn notwendig.
 - Die `Werbe-ID löschen` & `personalisierte Werbung deaktivieren`, um Tracking zu minimieren und zu erschweren.
-- Cloud-Dienste meiden - eigene Cloud oder NAS nutzen.
+- Cloud-Dienste meiden - eigene Cloud, wie Nextcloud oder NAS im Heimnetz nutzen.
 - Sichere und datenschutzfreundliche DNS-Server nutzen.
 
 ### Browser & Verhalten im Internet
@@ -43,7 +46,7 @@
 - 2‑Faktor-Authentifizierung nutzen - [2FAS](https://2fas.com/)
 
 ### Software & Daten schützen
-- Open-Source Software bevorzugen.
+- [Open Source](https://de.wikipedia.org/wiki/Open_Source) Software bevorzugen.
 - Regelmäßiges Installieren von Updates.
 - Nicht mehr benötigte Programme entfernen.
 - Backups erstellen.
@@ -63,6 +66,69 @@
 - Firewall aktivieren
 - Keine unbekannten Befehle im Terminal ausführen.
 
+### Betriebsystem spezifisch (hier Windows)
+- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Windows](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Windows).
+- Keine unbekannten Befehle im Terminal ausführen.
+- Ein lokales Nutzerkonto verwenden - KEIN Microsoft-Konto nutzen, um Cloudzwang und Tracking zu minimieren ! 
+
+
 #### Mehr zu `sicher & anonym im Internet surfen` unter [ethical hacking & Cyber Security/Cyber-Security/anonym & sicher im Internet surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/tree/main/browser-%26-sicher-surfen)
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+# 2. Verschlüsselung
+
+### Was ist Verschlüsselung ?
+- Verschlüsselung ist das `Umwandeln von Informationen aus dem Klartext in Geheimtext`. 
+- Die Schutzziele, die durch den Einsatz von Verschlüsselungsalgorithmen erreicht werden sind `Vertraulichkeit` und `Integrität`.
+- Der entscheidene Punkt ist dabei der Schlüssel der zum verschlüsseln verwendet wird, daher gibt es drei gänige Methoden, die symmetrische- asysmmetrische- und Hybride-Verschlüsselung.
+
+
+### Wieso sollte man Verschlüsselung einsetzen ?
+- Verschlüsselung wird meistens verwendet, um Informationen vor `unbefugten Zugriff` und vor `Manipulationen` bzw. Veränderung `zu schützen`.
+- Da Informationen ein sehr wertvolles Gut sind, ist es immer empfehlenswert Verschlüsselung einzusetzten, um diese zu schützen.
+
+
+### Welche gängingen Verschlüsselungsarten gibt es ?
+- `symmetrische Verschlüsselung`
+	- Informationen werden mit einem Schlüssel verschlüsselt
+	- Nur Teilnehmer, die in Besitz des Schlüssels sind, können die Informationen entschlüsseln
+	- Stärke der Verschlüsselung von länge und Komplexheit des Schlüssels bzw. Passwortes abhänig
+	- Vorteil: Einfachheit, Ver- und Entschlüsselung nicht rechenintensiv (einfach), solange der Schlüssel vertraulich bleibt, sehr sicher
+	- Nachteil: Der Schlüsselaustausch ist ein Problem, denn das Teilen des Schlüssels an andere Teilnehmer, muss über einen sicheren und authentischen Kanal erfolgen, da sonst die Vertraulichkeit nicht mehr sichergestellt werden kann.
+	- Anwendungszweck: Festplattenverschlüsselung, Datenbanken von Passwortmanagern wie KeePass
+
+- `asymmetrische Verschlüsselung`
+	- 1 Schlüsselpaar (also 2 Schlüssel) benötigt
+	- 1 öffentlicher Schlüssel und 1 privater Schlüssel
+	- Information wird mit öffentlichem Schlüssel von Teilnehmer verschlüsselt und nur dieser kann mit seinem privaten Schlüssel die Information wieder entschlüsseln.
+	- Vorteil: Kein Austausch von privaten Schlüssel nötig, Sender verschlüsselt mit öffentlichem Schlüssel und nur Empfänger kann mit privatem Schlüssel entschlüsseln. 
+	- Nachteil: deutlich komplexer, rechenintensiver, um so größer die Datenpakete, desto langsammer ver- und entschlüsselung
+	- Anwendungszweck: Messenger-Dienste
+
+- `hybride Verschlüsselung`
+	- Die hybride Verschlüsselung kombiniert symmetrische und asymmetrische Veschlüsselung.
+	- Information wird symmerisch verschlüsselt, symmetrischer Schlüssel wird dann asymmetrisch verschlüsselt.
+	- Nur der Empfänger kann so den symmetrischen Schlüssel mit seinem privaten Schlüssel entschlüsseln und Information mit dem dann erhaltenden symmetrischen Schlüssel entschlüsseln.
+	- Vorteil: Kombiniert Vorteile von symmetrischer und asymmetrischer Verschlüsselung
+	- Anwendungszweck: Netzwerkprotokolle, E-Mail-verschlüsselung
+
+
+## Was muss ich also zun ?
+- Häufig ist das Einsetzen von Verschlüsselung gar nicht so schwierig.
+- Bereits durch das Einrichten einer Passwortsperre bei Android, werden die Schlüssel der Android-Speicher-Verschlüsselung, verschlüsselt. - [Sicherheit auf Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
+- Aktivieren der Festplattenverschlüsselung. - Anleitung: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung) & [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple)
+- Optional kann man auch verschlüsselte Container-Dateien erstellen, um Daten sicher abzulegen. - [Container-Dateien in der Anleitung "Verschlüsselung mit VeraCrypt"](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung)
+- externe Datenträger verschlüsseln - [Verschlüsselung externer Datenträger in der Anleitung "Verschlüsselung mit VeraCrypt"](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung)
+- Netzwerkverkehr: nur HTTPS-Verbindungen ins Internet nutzen - [sicher-&-datenschutzorientiert-surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/tree/main/cyber-security)
+- DNS-Anfragen verschlüsseln - Was DNS-Anfragen sind und wie das möglich ist, ist [hier](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/raspberry-pi) zu finden.
+- E-Mail-Nutzung in Frage stellen, da hier meistens keine Verschlüsselung implementiert ist, muss ggf. selbst vorgenommen werden.
+- Cloud-Dienste ebenfalls in Frage stellen, da auch hier häuifig keine Verschlüsselung eingesetzt wird (meist wird nur Netzwerkverker zur Cloud verschlüsselt, jedoch nicht die abgelegten Daten).
+
+
+### Mehr zur Verschlüsselung und Sicherheit in den entsprechenden Beiträgen zu `Sicherheit auf dem Betriebsystem`: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung), [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple), [Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
+
 
 ----------------------------------------------------------------------------------------------------------------
