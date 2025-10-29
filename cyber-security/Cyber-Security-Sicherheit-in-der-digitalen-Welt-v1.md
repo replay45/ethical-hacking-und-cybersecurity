@@ -9,8 +9,6 @@
 
 
 
-
-
 ----------------------------------------------------------------------------------------------------------------
 
 
@@ -26,7 +24,7 @@
 ### Datenschutz & Tracking
 - Datenminimierung: Nur personenbezogene Daten angeben, wenn unbedingt notwendig.
 - Man sollte sich nur in online-Accounts einloggen, wenn notwendig.
-- Die `Werbe-ID löschen` & `personalisierte Werbung deaktivieren`, um Tracking zu minimieren und zu erschweren.
+- Die `Werbe-ID löschen` & `personalisierte Werbung deaktivieren`, um Tracking zu minimieren.
 - Cloud-Dienste meiden - eigene Cloud, wie Nextcloud oder NAS im Heimnetz nutzen.
 - Sichere und datenschutzfreundliche DNS-Server nutzen.
 
@@ -34,7 +32,8 @@
 - Acht geben, auf was im Internet heruntergeladen wird und welche Webseiten besucht werden.
 - Einen sicheren Browser, wie [Firefox](https://www.mozilla.org/de/firefox/new/) oder den [Brave-Browser](https://brave.com/de/) verwenden.
 - Browser datenschutzfreundlich einstellen und Cookies von Dritt-Anbietern blockieren.
-- AdBlocker verwenden - [uBlock Origin](https://ublockorigin.com/de)
+- Datenschutzorientierte Suchmaschine verwenden, z.B. [Startpage](https://www.startpage.com/), [DuckDuckGo](https://duckduckgo.com/) oder [Ecosia](https://www.ecosia.org/)
+- AdBlocker verwenden - [uBlock Origin](https://ublockorigin.com/de) & [Privacy Badger](https://privacybadger.org/)
 
 ### E-Mail
 - Vorsicht vor Scam-E-Mails und schädlichen Anhängen.
@@ -51,23 +50,23 @@
 - Nicht mehr benötigte Programme entfernen.
 - Backups erstellen.
 
-### Betriebsystem spezifisch (hier Android)
-- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android).
+### Betriebssystem spezifisch (hier Android)
+- Betriebssystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android).
 - Passwortsperre nutzen (zur automatischen Geräteverschlüsselung bei Android).
 - Keine unbekannten Befehle in einem Terminal (wie z.B. [Termux](https://termux.dev/en/)) ausführen.
 
-### Betriebsystem spezifisch (hier Linux)
-- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux).
+### Betriebssystem spezifisch (hier Linux)
+- Betriebssystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux).
 - Firewall: richtig mit [ufw](https://wiki.ubuntuusers.de/ufw/) konfigurieren und alle nicht benötigten Ports geschlossen halten.
 - Keine unbekannten Befehle im Terminal ausführen.
 
-### Betriebsystem spezifisch (hier MacOS)
-- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple).
+### Betriebssystem spezifisch (hier MacOS)
+- Betriebssystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple).
 - Firewall aktivieren
 - Keine unbekannten Befehle im Terminal ausführen.
 
-### Betriebsystem spezifisch (hier Windows)
-- Betriebsystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Windows](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Windows).
+### Betriebssystem spezifisch (hier Windows)
+- Betriebssystem optimal einstellen, durch befolgen von Tipps aus [Sicherheit auf Windows](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Windows).
 - Keine unbekannten Befehle im Terminal ausführen.
 - Ein lokales Nutzerkonto verwenden - KEIN Microsoft-Konto nutzen, um Cloudzwang und Tracking zu minimieren ! 
 
@@ -113,7 +112,7 @@
 	- Information wird symmerisch verschlüsselt, symmetrischer Schlüssel wird dann asymmetrisch verschlüsselt.
 	- Nur der Empfänger kann so den symmetrischen Schlüssel mit seinem privaten Schlüssel entschlüsseln und Information mit dem dann erhaltenden symmetrischen Schlüssel entschlüsseln.
 	- Vorteil: Kombiniert Vorteile von symmetrischer und asymmetrischer Verschlüsselung
-	- Anwendungszweck: Netzwerkprotokolle, E-Mail-verschlüsselung
+	- Anwendungszweck: Netzwerkprotokolle, E-Mail-Verschlüsselung
 
 
 ## Was muss ich also zun ?
@@ -128,7 +127,7 @@
 - Cloud-Dienste ebenfalls in Frage stellen, da auch hier häuifig keine Verschlüsselung eingesetzt wird (meist wird nur Netzwerkverker zur Cloud verschlüsselt, jedoch nicht die abgelegten Daten).
 
 
-### Mehr zur Verschlüsselung und Sicherheit in den entsprechenden Beiträgen zu `Sicherheit auf dem Betriebsystem`: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung), [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple), [Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
+### Mehr zur Verschlüsselung und Sicherheit in den entsprechenden Beiträgen zu `Sicherheit auf dem Betriebssystem`: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung), [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple), [Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
 
 
 ----------------------------------------------------------------------------------------------------------------
