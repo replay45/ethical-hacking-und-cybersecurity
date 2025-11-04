@@ -1,0 +1,139 @@
+This is an updated version of the matrix cmd script. 
+This Script has been modified to select the current active user Desktop, instead of manually changing the directory. 
+The script also executes the matrix cmd script now. Things that could be added are: checking to see if the matrix batch 
+file has already created or not and to delete it before running script again, 
+OR checking to see if the matrix batch file has already been created and skip creating the batch file, but just running the matrix batch file.
+Better than https://ducktoolkit.com/viewscript/5bf074a1ac04af589586b7d0/.
+
+WICHTIG:
+Der Dateipfad muss immer geprüft und ggf. angepasst werden.
+
+Durch das Tastaturlayout können Zeichen wie ":" oder "@" zu Problemen führen.
+
+
+Lösungsvorschlag 1:
+Daher können die Zeichen einfach angepasst werden, wie z.B. anstatt "Sonderzeichen xy" einfach die belegte Taste "xy" schreiben, dann erscheint der gewünschte Buchstabe.
+
+Lösungsvorschlag 2: (bessere Lösung)
+Tastaturlayout in Windows zu "Englisch" anpassen.
+
+
+
+Community script from: https://ducktoolkit.com/userscripts
+
+----------------------------------------
+
+
+original:
+
+DELAY 1000
+GUI r
+DELAY 100
+STRING notepad
+ENTER 
+DELAY 100
+STRING @echo off
+ENTER
+ENTER
+DELAY 100
+STRING color 02 
+ENTER
+ENTER
+DELAY 100
+STRING mode 1000
+ENTER
+ENTER 
+DELAY 100
+STRING :matrixbynima
+ENTER
+ENTER
+DELAY 100
+STRING echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%
+ENTER
+ENTER
+DELAY 100
+STRING goto matrixbynima
+ENTER 
+DELAY 100
+CTRL S 
+DELAY 200
+STRING %userprofile%\Desktop\matrix.bat
+ENTER 
+DELAY 1000
+GUI r
+DELAY 100
+STRING cmd
+ENTER
+DELAY 100
+STRING cd %userprofile%\Desktop\
+ENTER
+DELAY 50
+STRING matrix.bat
+ENTER
+DELAY 1500
+ENTER
+
+
+---------------------------------------------------------------------------
+
+bearbeitet
+
+REM open notepad and write a matrix bat-file, will save it on desktop
+REM The file path must always be checked and adjusted if necessary !
+REM The keyboard layout can cause problems with characters like ":" or "@".
+REM Solution 1: The special characters can be easily adjusted, for example, instead of "special character xy", simply write the assigned key "xy", then the desired letter appears.
+REM Solution 2: (easier solution) Adjust keyboard layout in Windows to "English".
+REM set keyboard layout: testet on "english (US)" recommendation for DuckyScript: english (US)
+DELAY 1000
+GUI r
+DELAY 2000
+STRING notepad
+ENTER 
+DELAY 1000
+STRING @echo off
+ENTER
+ENTER
+DELAY 200
+STRING color 0a 
+ENTER
+ENTER
+DELAY 200
+STRING mode 1000
+ENTER
+ENTER
+DELAY 500
+STRING :a
+ENTER
+ENTER
+DELAY 2000
+STRING echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%
+ENTER
+ENTER
+DELAY 200
+STRING goto a
+ENTER 
+DELAY 200
+CTRL S 
+DELAY 1000
+STRING matrix.bat
+ENTER 
+DELAY 1000
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+STRING cd Desktop
+ENTER
+DELAY 2000
+STRING matrix.bat
+ENTER
+DELAY 3000
+ENTER
+DELAY 500
+ALT SPACE
+DOWNARROW 
+DOWNARROW 
+DOWNARROW 
+DOWNARROW 
+ENTER
