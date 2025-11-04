@@ -17,7 +17,7 @@ Die Nutzung von Funkfrequenzen (RF) unterliegt den Gesetzen des jeweiligen Lande
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Ducky Script & OMG-Cable
+### hak5: OMG-Cable & Ducky Script
 
 Die Ducky Skripte sollen veranschaulichen, was die Folgen von Unachtsamkeit bei der Nutzung von fremden USB-Kabeln/Geräten sein können.
 
