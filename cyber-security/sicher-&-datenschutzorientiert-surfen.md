@@ -170,10 +170,10 @@
     
 
 - [Mullvad Browser](https://mullvad.net/en/browser)
-	- Nur für Desktop (Linux, MacOS, Windows) verfügbar
+	- Nur für Desktop (Linux, MacOS, Windows) verfügbar (Stand 23.2.2026)
 	- [Open Source](https://de.wikipedia.org/wiki/Open_Source)
 	- hohe Sicherheitsstandards
-	- starker Schutz vor Fingerprinting (setzt Fingerprint identisch zu allen anderen Mullvad Browsern, sodass )
+	- starker Schutz vor Fingerprinting (setzt Fingerprint identisch zu allen anderen Mullvad Browsern, sodass die Browser nicht unterscheidbar sind)
 	- starker Schutz vor Tracking
 	- [uBlock Origin](https://ublockorigin.com/de) und [NoScript](https://noscript.net/) Erweiterung vorinstalliert
 	- Basiert auf dem Tor-Browser (gehört also zur Firefox-Familie), allerdings wurden alle Tor-Funktionalitäten entfernt
