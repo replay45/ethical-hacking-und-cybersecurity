@@ -384,7 +384,7 @@
     - Wer noch einen Schritt weiter gehen möchte, kann auch einen DNS-Server im eigenen Netzwerk einrichten, dafür eignet sich z.B. [Pi hole](https://pi-hole.net/).
     - Mit [Pi hole](https://pi-hole.net/) kann man DNS-Filterlisten einrichten, sodass bestimmte Domains geblockt werden, so kann man Tracking und Werbung Netzwerkweit minimieren. Zudem kann man auch über `Cloudflared` DoH-Verschlüsselung einrichten, sodass alle Anfragen die über Pi hole gehen verschlüsselt werden.
     
-- Im Ordner zum Raspberry Pi und Pi hole sind weitere Inhalte zum Thema [Pi hole, DNS-Verschlüsselung & DNS-Upstream-Server](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/raspberry-pi) zu finden.
+- Im Ordner DNS-Server sind weitere Inhalte zum Thema [Pi hole, DNS-Verschlüsselung & DNS-Upstream-Server](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/dns-server) zu finden.
 
 - [DNS](https://de.wikipedia.org/wiki/Domain_Name_System)-Leaks im Browser
     - Browser können z.B. bei der Verwendung eines VPNs DNS-Anfragen leaken. Das geschieht, wenn DNS-Anfragen nicht über den VPN-Tunnel laufen.
