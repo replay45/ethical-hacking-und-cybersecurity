@@ -71,7 +71,7 @@
 - Ein lokales Nutzerkonto verwenden - KEIN Microsoft-Konto nutzen, um Cloudzwang und Tracking zu minimieren ! 
 
 
-#### Mehr zu `sicher-&-datenschutzorientiert-surfen` unter [ethical hacking & Cyber Security/Cyber-Security/sicher-&-datenschutzorientiert-surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/tree/main/cyber-security)
+#### Mehr zu `sicher-&-datenschutzorientiert-surfen` unter [ethical hacking & Cyber Security/Cyber-Security/sicher-&-datenschutzorientiert-surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/blob/main/cyber-security/sicher-%26-datenschutzorientiert-surfen.md)
 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -118,16 +118,16 @@
 ## Was muss ich also zun ?
 - Häufig ist das Einsetzen von Verschlüsselung gar nicht so schwierig.
 - Bereits durch das Einrichten einer Passwortsperre bei Android, werden die Schlüssel der Android-Speicher-Verschlüsselung, verschlüsselt. - [Sicherheit auf Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
-- Aktivieren der Festplattenverschlüsselung. - Anleitung: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung) & [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple)
-- Optional kann man auch verschlüsselte Container-Dateien erstellen, um Daten sicher abzulegen. - [Container-Dateien in der Anleitung "Verschlüsselung mit VeraCrypt"](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung)
-- externe Datenträger verschlüsseln - [Verschlüsselung externer Datenträger in der Anleitung "Verschlüsselung mit VeraCrypt"](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung)
-- Netzwerkverkehr: nur HTTPS-Verbindungen ins Internet nutzen - [sicher-&-datenschutzorientiert-surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/tree/main/cyber-security)
-- DNS-Anfragen verschlüsseln - Was DNS-Anfragen sind und wie das möglich ist, ist [hier](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/raspberry-pi) zu finden.
+- Aktivieren der Festplattenverschlüsselung - Anleitung: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung) & [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple)
+- Optional kann man auch verschlüsselte Container-Dateien erstellen, um Daten sicher abzulegen. - [Container-Dateien in der Anleitung "Verschlüsselung mit VeraCrypt"](https://github.com/replay45/Linux-RaspberryPI-NextCloud/blob/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung/Verschl%C3%BCsselung-mit-VeraCrypt.md)
+- externe Datenträger verschlüsseln - [Verschlüsselung externer Datenträger in der Anleitung "Verschlüsselung mit VeraCrypt"](https://github.com/replay45/Linux-RaspberryPI-NextCloud/blob/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung/Verschl%C3%BCsselung-mit-VeraCrypt.md)
+- Netzwerkverkehr: nur HTTPS-Verbindungen ins Internet nutzen - [sicher-&-datenschutzorientiert-surfen](https://github.com/replay45/ethical-hacking-und-cybersecurity/blob/main/cyber-security/sicher-%26-datenschutzorientiert-surfen.md)
+- DNS-Anfragen verschlüsseln - Was DNS-Anfragen sind und wie das möglich ist, ist hier in der Anleitung zu [Pi-hole & DNS-Forwarder](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/dns-server) zu finden.
 - E-Mail-Nutzung in Frage stellen, da hier meistens keine Verschlüsselung implementiert ist, muss ggf. selbst vorgenommen werden.
 - Cloud-Dienste ebenfalls in Frage stellen, da auch hier häuifig keine Verschlüsselung eingesetzt wird (meist wird nur Netzwerkverker zur Cloud verschlüsselt, jedoch nicht die abgelegten Daten).
 
 
-### Mehr zur Verschlüsselung und Sicherheit in den entsprechenden Beiträgen zu `Sicherheit auf dem Betriebssystem`: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/tree/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung), [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple), [Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
+### Mehr zur Verschlüsselung und Sicherheit in den entsprechenden Beiträgen zu `Sicherheit auf dem Betriebssystem`: [Linux](https://github.com/replay45/Linux-RaspberryPI-NextCloud/blob/main/linux/Sicherheit-auf-linux-%26-Verschl%C3%BCsselung/Sicherheit-unter-Linux.md), [MacOS](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Apple), [Android](https://github.com/replay45/Windows-Apple-und-Android/tree/main/Android)
 
 
 ----------------------------------------------------------------------------------------------------------------
